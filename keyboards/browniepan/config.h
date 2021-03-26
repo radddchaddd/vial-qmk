@@ -20,6 +20,10 @@
 #define MATRIX_COL_PINS { F4, F1, F0, D2, D3, D5, F7, F6, F5, D4, D6, D7, B4, B5 }
 #define UNUSED_PINS
 
+#define VIAL_KEYBOARD_UID {0x04, 0xE3, 0x1A, 0x9B, 0xAD, 0x47, 0x79, 0xB5}
+#define VIAL_UNLOCK_COMBO_ROWS { 0, 2 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 13 }
+
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
 
@@ -57,7 +61,18 @@
 #define RGB_DISABLE_TIMEOUT 300000 // number of milliseconds to wait until rgb automatically turns off
 #define RGB_MATRIX_STARTUP_VAL RGB_MATRIX_MAXIMUM_BRIGHTNESS // Sets the default brightness value, if none has been set
 #define RGB_MATRIX_STARTUP_SPD 100 // Sets the default animation speed, if none has been set
-#define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 
+
+// fuck rgb
+#define DISABLE_RGB_MATRIX_GRADIENT_UP_DOWN
+#define DISABLE_RGB_MATRIX_GRADIENT_LEFT_RIGHT
+#define DISABLE_RGB_MATRIX_BAND_SAT
+#define DISABLE_RGB_MATRIX_BAND_VAL
+#define DISABLE_RGB_MATRIX_BAND_PINWHEEL_SAT
+#define DISABLE_RGB_MATRIX_BAND_PINWHEEL_VAL
+#define DISABLE_RGB_MATRIX_BAND_SPIRAL_SAT
+#define DISABLE_RGB_MATRIX_BAND_SPIRAL_VAL
+#define DISABLE_RGB_MATRIX_RAINDROPS
+#define DISABLE_RGB_MATRIX_JELLYBEAN_RAINDROPS
 
 #endif
