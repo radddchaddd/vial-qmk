@@ -5,7 +5,7 @@
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0x726b
-#define PRODUCT_ID      0x646c
+#define PRODUCT_ID      0x645c
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    rainkeebs
 #define PRODUCT         Delilah
