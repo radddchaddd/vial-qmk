@@ -23,6 +23,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEVICE_VER 0x0002
 #define MANUFACTURER Montsinger
 #define PRODUCT Rebound
+#define DESCRIPTION "A conjoined Let's Split"
+
+#define VIAL_KEYBOARD_UID {0x7A, 0x26, 0x69, 0x06, 0x49, 0x13, 0xF8, 0x6B}
+#define VIAL_UNLOCK_COMBO_ROWS { 0, 0 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 1 }
 
 /* key matrix size */
 
@@ -61,8 +66,9 @@ diode)
 
 /* ws2812 RGB LED */
 #define RGB_DI_PIN B6
-#define RGBLED_NUM 17
+#define RGBLED_NUM 19
+#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
 
 /* Bootmagic Lite key configuration */
-// #define BOOTMAGIC_LITE_ROW 0
-// #define BOOTMAGIC_LITE_COLUMN 0
+ #define BOOTMAGIC_LITE_ROW 0
+ #define BOOTMAGIC_LITE_COLUMN 0
