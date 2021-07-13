@@ -2,7 +2,7 @@
     "name": "splashpad",
     "vendorId": "0x726b",
     "productId": "0x7370",
-    "lighting": "none",
+    "lighting": "qmk_rgblight",
     "matrix": { "rows": 3, "cols": 3 },
     "layouts": {
         "keymap": [
