@@ -31,3 +31,10 @@ ENCODER_ENABLE = yes
 LAYOUTS = ortho_4x12
 LAYOUTS_HAS_RGB = no
 
+<<<<<<< HEAD
+=======
+# Disable unsupported hardware
+RGBLIGHT_SUPPORTED = yes
+AUDIO_SUPPORTED = no
+BACKLIGHT_SUPPORTED = no
+>>>>>>> upstream/vial
