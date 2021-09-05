@@ -20,11 +20,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEAE
-#define PRODUCT_ID      0x8844
-#define DEVICE_VER      0x0002
-#define MANUFACTURER    Evan Sailer
-#define PRODUCT         Minivan
+#define VENDOR_ID       0x726B
+#define PRODUCT_ID      0x6D73
+#define DEVICE_VER      0x0001
+#define MANUFACTURER    Rainkeebs
+#define PRODUCT         Minisub
 
 /* key matrix size */
 #define MATRIX_ROWS 4
@@ -64,7 +64,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
-/* RGB Setup */
-#define RGB_DI_PIN D0
-#define RGBLED_NUM 3
-#define RGBLIGHT_SLEEP
+
